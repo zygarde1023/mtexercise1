@@ -12,14 +12,13 @@
  {?>
      <div class="border">
      <?php
-     $carbrand = $data->getElementsByTagName("carbrand")->item(0)->nodeValue;
-     $carstatus = $data->getElementsByTagName("carstatus")->item(0)->nodeValue;
-     $carname = $data->getElementsByTagName("carname")->item(0)->nodeValue;
-     $carprice = $data->getElementsByTagName("carprice")->item(0)->nodeValue;
+     $carbrand = $data->getElementsByTagName("brand")->item(0)->nodeValue;
+     $carstatus = $data->getElementsByTagName("status")->item(0)->nodeValue;
+     $carname = $data->getElementsByTagName("name")->item(0)->nodeValue;
+     $carprice = $data->getElementsByTagName("price")->item(0)->nodeValue;
      echo "<ul>
-            <h2>$title</h2>
+            <h2>Brand: $carbrand</h2>
               <ul>
-                  <li>Brand: $carbrand </li>
                   <li>Status: $carstatus </li>
                   <li>Name: $carname </li>
                   <li>Price: $carprice </li>
