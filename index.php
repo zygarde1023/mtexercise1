@@ -12,10 +12,10 @@
  {?>
      <div class="border">
      <?php
-     $title = $data->getElementsByTagName("carbrand")->item(0)->nodeValue;
-     $artist = $data->getElementsByTagName("carstatus")->item(0)->nodeValue;
-     $genre = $data->getElementsByTagName("carname")->item(0)->nodeValue;
-     $album = $data->getElementsByTagName("carprice")->item(0)->nodeValue;
+     $carbrand = $data->getElementsByTagName("carbrand")->item(0)->nodeValue;
+     $carstatus = $data->getElementsByTagName("carstatus")->item(0)->nodeValue;
+     $carname = $data->getElementsByTagName("carname")->item(0)->nodeValue;
+     $carprice = $data->getElementsByTagName("carprice")->item(0)->nodeValue;
      echo "<ul>
             <h2>$title</h2>
               <ul>
