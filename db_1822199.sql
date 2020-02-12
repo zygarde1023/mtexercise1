@@ -25,10 +25,10 @@ CREATE TABLE IF NOT EXISTS `tbl_cars` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumping data for table db_1822199.tbl_cars: ~0 rows (approximately)
+-- Dumping data for table db_1822199.tbl_cars: ~6 rows (approximately)
 /*!40000 ALTER TABLE `tbl_cars` DISABLE KEYS */;
 INSERT INTO `tbl_cars` (`id`, `carbrand`, `carstatus`, `carname`, `carprice`) VALUES
-	(0, 'Aston Martin', 'Good Condition', 'DB8', '4500000'),
+	(0, 'Aston Martin', 'Good Condition', 'DB11', '6500000'),
 	(1, 'Aston Martin', 'Good Condition', 'DB11', '6500000'),
 	(2, 'Mustang', 'Best Condition', 'GT250', '3800000'),
 	(3, 'Honda', 'Fair Condition', 'Civic2018', '2500000'),
